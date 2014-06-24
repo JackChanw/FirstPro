@@ -1,0 +1,184 @@
+* {margin:0;padding:0;border:0;}
+html{overflow-x:hidden; }
+body {font-size:12px;font-family:Arial,"宋体",sans-serif;background-color: transparent;padding:7px;}
+img {border:0;}
+ul,ol,li {list-style:none;}
+.clear {display:block;clear:both;}
+a {
+    color:#444;
+    text-decoration:none;
+}
+a:hover {
+    color:#444;
+    text-decoration:underline;
+}
+/*:focus {outline: 0;} 消除超链接的虚影*/
+/* 主容器 */
+#container {
+    width:100%;
+    overflow:hidden;
+    border:0px;
+    color:#444;
+}
+/* 显示边框颜色 */
+.bor_div{
+    border:1px solid #C7D8EA;
+}
+/* 栏目标题 */
+.title{
+    height:25px;
+    line-height:25px;
+    font-weight:bold;
+    font-size:13px;
+    color:#3A6EA5;
+    padding-left:10px;
+    border-bottom:1px solid #C7D8EA;
+    background:url("../images/x_bg.png") repeat-x 0px -42px;
+}
+/* 内容容器，主要是设置一个内边距 */
+.content{
+    padding:10px;
+}
+/* 表单控件 */
+input {
+    border:1px solid #D0D0D0;
+    height:22px;
+    line-height:22px;
+    padding:0px 5px;
+    background:url("../images/x_bg.png") repeat-x;
+}
+/* 单选按钮或多选按钮 */
+.checkbox{
+    height:auto;
+	position:relative;
+	top:2px;
+	margin-right:5px;
+    padding:0px;
+    background:none;
+}
+/*
+select {
+    border:1px solid #D0D0D0;
+    height:24px;
+    line-height:24px;
+    padding:2px;
+    background:url("../images/x_bg.png") repeat-x;
+}
+*/
+
+select {
+    background: none repeat scroll 0 0 #F9F9F9;
+    border-color: #666666 #CCCCCC #CCCCCC #666666;
+    border-style: solid;
+    border-width: 1px;
+    color: #333333;
+    padding: 2px;
+    vertical-align: middle;
+}
+
+
+textarea {
+    border:1px solid #D0D0D0;
+    padding:5px;
+	font-size:12px;
+}
+/* 选项卡 一般选项卡都是li标签 */
+.option {
+    height:25px;
+    line-height:25px;
+    display:block;
+    padding:0px 10px;
+    margin:0px 6px;
+    float:left;
+    border:1px solid #DCE3ED;
+    background:#EAEEF4;
+    cursor:pointer;
+}
+/* 选项卡选中状态 */
+.option.on{
+    background:#fff;
+    font-weight:bold;
+    color:#444;
+}
+/* 搜索等操作栏 */
+.con_top{
+    height:35px;
+    line-height:35px;
+    background:#FFFCED;
+    border:1px solid #FFBE7A;
+    margin-bottom:12px;
+    padding:0 20px;
+}
+/* 内容中的一些数据表格字段 */
+.con_tab_title{
+    height:30px;
+    line-height:30px;
+    background:#EEF3F7;
+    border-bottom:1px solid #D5DFE8;
+    /* 边框颜色设置为#DCE3ED */
+}
+/* 内容中的一些数据表格内容的鼠标划过效果 */
+.con_tab_content{
+    background:#FBFFE4;
+}
+/* 内容中的一些数据表格的底部操作区域 */
+.con_tab_operate{
+    height:38px;
+    line-height: 38px;
+    border:1px solid #eee;
+    border-left:0;
+    border-right:0;
+    background:#F6F6F6;
+    padding:0px 20px;
+}
+/* 提交类按钮span */
+.sub_button{
+    height:23px;
+    line-height:23px;
+    padding:0 8px;
+    display:inline-block;
+    height:24px;
+    border:1px solid #ccc;
+    cursor:pointer;
+    background:url("../images/btnbg.png") repeat-x;
+}
+.sub_button:hover {
+    border:1px solid #999;
+}
+/* 功能类按钮span,必须要嵌套一个b标签  <span class="fun_button"><b>xxx</b></span> */
+.fun_button{
+    padding:3px 0px 3px 8px;
+    cursor:pointer;
+    background:url("../images/bnt_bg.png") no-repeat 0px -44px;
+}
+.fun_button b{
+    font-weight:normal;
+    padding:3px 8px 3px 0px;
+    color:#fff;
+    background:url("../images/bnt_bg.png") no-repeat right -44px;
+}
+/* 翻页按钮span */
+.page_button{
+    padding:3px 4px;
+    cursor:pointer;
+    background:#fff;
+    border:1px solid #E3E3E3;
+}
+.page_button.on{
+    background:#5A85B2;
+    color:white;
+}
+.page_button:hover {
+    background:#F1F1F1;
+}
+/* 不显示边框 */
+.noborder{
+    border:none;
+}
+
+/* 多行显示使用边框分开使用 #EEE 颜色 */
+
+/* 自定义 */
+#main{
+ 
+}

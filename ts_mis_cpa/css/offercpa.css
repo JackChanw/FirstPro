@@ -1,0 +1,108 @@
+#main {
+    /*border:1px solid #C7D8EA;*/
+    float:left;
+    width:99%;
+}
+#main #add{
+    margin:20px;
+    margin-bottom:0px;
+}
+#main #add .hintContent {
+	margin:0 10px;
+	color:gray;
+}
+#main #add .createapp {
+    float:right;
+}
+#main .app{
+    margin:15px 15px;
+    float:left;
+    width:99%;
+
+}
+#main .app ul li {
+    line-height:35px;
+    list-style-type:none;
+    width:90%;
+}
+#main .app ul li .appName,.appType{
+    float:left;
+    margin-right:15px;
+}
+#main .app ul li .appType{
+    margin-right:20px;
+}
+#main .lname {
+    display:inline-block;
+    text-align:right;
+    width:120px;
+}
+#main .app ul li .link {
+    width:550px;
+    margin-right:15px;
+}
+#main .app ul li .link_short {
+    width:250px;
+    margin-right:15px;
+}
+.param {
+    width:75%;
+    float:left;
+    border:1px solid #D0D0D0;
+}
+.param .par li {
+    margin-top:10px;
+}
+.param .par li div {
+    float;left;
+    display:inline;
+    /*margin-right:15px;*/
+}
+.param .par .mac_type {
+    width:100px;
+}
+.param .par .activateMode, .callbackPeriod {
+    width:50px;
+}
+.noteInfo {
+    position:relative;
+    top:5px;
+    width:509px;
+    height:80px;
+}
+button {
+    border:1px solid #999;
+    padding:3px;
+    margin-right:15px;
+    margin-left:10px;
+}
+.but {
+    margin-left:70px;
+}
+.twoCode {
+     float:left;
+     border:1px solid #999;
+     width:200px;
+     height:200px;
+     margin-left:20px;
+     margin-top:25px;
+}
+
+.radio_type {
+	position:relative;
+	margin-right:5px;
+	margin-left:5px;
+	top:5px;
+}
+.app_name {
+	display:inline;
+}
+.app em{
+	display:none;
+}
+.errorMessage {
+	color: red;
+	position:absolute;
+	top:49px;
+	left:462px;
+}

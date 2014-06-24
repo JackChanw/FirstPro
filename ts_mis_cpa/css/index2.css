@@ -1,0 +1,296 @@
+* {margin:0;padding:0;border:0;}
+body {font-size:12px;font-family:Arial,"宋体",sans-serif;}
+img {border:0;}
+ul,ol,li {list-style:none;}
+.clear {display:block;clear:both;}
+:focus {outline: 0;}
+
+#container,#header,#main {
+    width:100%;
+}
+#container {
+    min-width:1000px;/* 最小宽度、兼容IE6处理、后台设置修改（选项卡过多时） */
+}
+/* head部分begin */
+#header {
+    height:80px;
+    background:url("../images/head_bg.gif") repeat scroll left bottom #3A6EA5;
+    overflow:hidden;
+}
+#logo {
+    width:140px;/* logo图片必须在140*80内 */
+    height:80px;
+    background:url("../images/logo.gif") no-repeat;
+    float:left;
+}
+#head_r {
+    height:62px;
+    padding-top:18px;
+}
+#fun_line,#fun_line a {
+    color:#fff;
+    height:16px;
+    text-decoration:none;
+}
+#fun_line a:hover {
+    text-decoration:underline;
+}
+#fun_line span {
+    color:#4682B5;
+    margin:0px 3px;
+}
+#fun_line .ll {
+    float:left;
+    padding-left:10px;
+}
+#fun_line .lr {
+    float:right;
+    padding-right:20px;
+}
+#fun_line .lockscreen {
+    padding:2px 0 2px 20px;
+    background:url("../images/bg.png") no-repeat;
+}
+#top_menu {
+    margin:12px 0 0 145px;
+    height:34px;
+}
+#top_menu li {
+    float:left;
+    cursor:pointer;
+    margin:0px 1px;
+    padding-left:15px;
+    background:url("../images/bg.png") no-repeat -140px 0px;
+}
+#top_menu li b {
+    font-size:14px;
+    display:block;
+    color:#fff;
+    padding:10px 15px 8px 0px;
+    background:url("../images/bg.png") no-repeat right 0px;
+}
+/* 导航菜单中选中项 class="on" */
+#top_menu li.on {
+    color:#367ABB;
+    background:url("../images/bg.png") no-repeat -140px -35px;
+}
+#top_menu li.on b {
+    color:#367ABB;
+    background:url("../images/bg.png") no-repeat right -35px;
+}
+/* head部分end */
+#main {}
+/* left部分begin */
+#left_menu {
+    width:125px;
+    background:url("../images/left_bg.png") repeat-y -38px 0px #F7FBFC;
+    float:left;
+    padding:4px 0 0px 13px;
+}
+#left_menu b {
+    font-size:15px;
+    display:block;
+    color:#275D96;
+    margin:13px 13px 5px 0;
+    border-bottom:1px solid #D9E4EA;
+    cursor:pointer;
+    background:url("../images/bg.png") no-repeat -8px -98px;
+}
+/* 列表中的标题打开显示 */
+#left_menu b.on {
+    background:url("../images/bg.png") no-repeat 101px -98px;
+}
+#left_menu li {
+    margin:1px 0 1px 2px;
+    padding:2px 0 3px 6px;
+    color:#444;
+    cursor:pointer;
+}
+#left_menu li:hover {
+    background:url("../images/bg.png") no-repeat 0px -61px;
+}
+/* 列表中的选中项 */
+#left_menu li.on {
+    height:27px;
+    line-height:25px;
+    padding-left:20px;
+    color:#004499;
+    font-size:13px;
+    font-weight:bold;
+    background:url("../images/bg.png") no-repeat 0px -20px;
+}
+/* 列表中不需要有功能的展示性文字 class="noOption" */
+#left_menu ul.noOption li {
+    color:#666;
+    background:none;
+    font-size:13px;
+    cursor:default;
+    height:18px;
+    margin:0px;
+    padding:0px;
+}
+/* left部分end */
+/* switch部分begin */
+#switchs {
+    width:13px;/* Y轴重复更换 */
+    background:url("../images/left_menu_openClose.png") no-repeat 3px center #E2E9EA;
+    float:left;
+    cursor:pointer;
+}
+/* 左边栏隐藏后的switch */
+#switchs.left {
+    background-position:-26px center;
+}
+#switchs:hover {
+    background-color:#D6E1E4;
+}
+/* switch部分end */
+
+#content {
+    /* 展开搜索需要调整该属性 */
+    margin-left:151px;
+    padding:0px 12px 12px 0px;
+    background-color:#E2E9EA;
+}
+#title {
+    width:100%;
+    height:28px;
+    color:#444;
+}
+#path {
+    float:left;
+    padding-left:20px;
+    line-height:31px;
+    background:url("../images/bg.png") no-repeat -282px -70px;
+}
+#shortcut {
+    float:right;
+}
+#shortcut li {
+    float:right;
+    margin:4px;
+    padding-left:5px;
+    cursor:pointer;
+    color:#0364AE;
+    background:url("../images/bg.png") no-repeat -156px -101px;
+}
+#shortcut li b {
+    font-weight:normal;
+    padding:0px 5px 0 0;
+    height:20px;
+    line-height:20px;
+    display:block;
+    background:url("../images/bg.png") no-repeat right -101px;
+}
+#cont_main_w {
+    border:1px solid #fff;
+}
+#cont_main_n {
+    border:1px solid #C2D0D9;
+    background-color:#fff;
+}
+#frame {
+    padding:1px 0px 0px 1px;
+}
+#window {
+    background:url("../images/window_bg.png") repeat-x;
+    height:28px;
+    padding:0px 20px;
+}
+#window ul {
+    float:left;
+}
+#window li {
+    line-height:28px;
+    height:28px;
+    float:left;
+    padding:0px 3px 0px 15px;
+    border-right:1px solid #C2D1D8;
+    background:url("../images/window_bg.png") repeat-x;
+    cursor:pointer;
+    overflow:hidden;
+}
+/* 选中项时on类 */
+#window li:hover ,#window li.on {
+    background:url("../images/window_bg.png") repeat-x 0px -35px;
+}
+#window b{
+    display:block;
+    float:left;
+    font-weight:normal;
+    color:#444;
+}
+#window em {
+    display:block;
+    margin:8px 7px 0px;
+    height:12px;
+    width:12px;
+    float:left;
+    background:url("../images/bg.png") no-repeat -238px -79px;
+}
+#window em:hover {
+    background:url("../images/bg.png") no-repeat -256px -79px;
+}
+#window span {
+    display:block;
+    float:left;
+    height:28px;
+    width:14px;
+    cursor:pointer;
+    margin-left:5px;
+    background:url("../images/bg.png") no-repeat -198px -72px;
+}
+#window span:hover {
+    background:url("../images/bg.png") no-repeat -214px -72px;
+}
+/* 锁屏 */
+#lock{
+    position:fixed;
+    height:100%;
+    width:100%;
+    top:0px;
+    left:0px;
+    background:#3A6EA5;
+}
+#lockScreenWin{
+    width:475px;
+    height:239px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin:-170px 0 0 -336px;
+    padding:99px 0 0 196px;
+    background:url("../images/ScreenLock.png") no-repeat;
+}
+#lockScreenForm{
+    width:278px;
+    height:82px;
+    padding:20px;
+    color:#444;
+}
+#lockScreenForm .state{
+    padding-left:40px;
+    height:32px;
+    font-size:18px;
+    line-height:32px;
+    display:block;
+    background:url("../images/bg.png") no-repeat 0 -130px;
+}
+#lockScreenForm .inp{
+    display:block;
+    height:25px;
+    margin-top:20px;
+    font-size:14px;
+    padding-right:10px;
+}
+#lockScreenForm .inp span{
+    float:left;
+}
+#lockScreenForm #lockPw{
+    border:1px solid #ccc;
+    height:21px;
+    width:165px;
+}
+#lockScreenForm .inp_img{
+    float:right;
+}
